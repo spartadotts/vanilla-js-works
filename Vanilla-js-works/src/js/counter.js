@@ -5,6 +5,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function updateValue(){
         valueElement.textContent = counter;
+        if(counter > 0){
+            valueElement.style.color = 'green'
+        }
+        else if(counter<0){
+            valueElement.style.color = 'red'
+        }
+        else if(counter == 0){
+            valueElement.style.color = 'black'
+        }
     }
 
     document.querySelector(".btn.decrease").addEventListener('click', () => {
