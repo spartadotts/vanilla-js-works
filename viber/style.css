@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: rgb(22, 20, 20);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    
+    display: flex;
+    
+}
+
+nav{
+    position: fixed;
+    font-family: "Varela Round", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul{
+    
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    color: azure;
+    padding-right: 100px;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.6rem;
+}
+
+div{
+    font-family:"Varela Round", sans-serif ;
+    color: azure;
+}
+
+.content{
+    position: relative;
+    min-height:50vh;
+    color: azure;
+    font-family: "Varela Round", sans-serif;
+    display: flex;
+    margin: 0px auto;
+    width: 70%;
+    border-radius: 20px;
+    padding-top: 70px;
+}
+
+.playerWrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    bottom: 0;
+    margin-bottom: 20px;
+    align-items: center ;
+}
+
+.player{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 0;
+    margin-bottom: 20px;
+}
+
+#playerBar{
+    width: 50vw;
+}
+
+.icons{
+    margin-top: 20px;
+    padding-left: 25px;
+}
+
+.icons i{   
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+.songlist{
+    padding-top: 20px;
+}
+
+.stationItem{
+
+    margin: 60px 20px;
+
+}
+
